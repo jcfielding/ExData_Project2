@@ -44,7 +44,10 @@ png("plot1.png")
 par(las=1)
 
 #Plot emissions
-plot(x = data.total$year, y = data.total$emission_mt, type = "b", main = expression(' PM'[2.5]*' from all sources per year'), xlab = "Year", ylab = expression('Total PM'[2.5]*' emission in megatons'), pch = 19, col = "black", xaxt = "n", yaxt = "n")
+plot(x = data.total$year, y = data.total$emission_mt, type = "b", 
+     main = expression('Total USA PM'[2.5]*' emissions from all sources'), 
+     xlab = "Year", ylab = expression('Total PM'[2.5]*' emission in megatons'), 
+     pch = 19, col = "black", xaxt = "n", yaxt = "n")
 
 #Modify values for x-axis labels 
 axis(1,at=data.total$year)

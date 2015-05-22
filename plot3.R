@@ -43,7 +43,7 @@ png("plot3.png")
 #Plot using ggplot2
 qplot(year, emission, data = data.baltimore.source, 
       color = type, geom = "line") + 
-      ggtitle(expression('Total PM'[2.5]*' emissions by source type in Baltimore per year')) +
+      ggtitle(expression('Total PM'[2.5]*' emissions by source type for Baltimore City')) +
       xlab("Year") + ylab(expression('Total PM'[2.5]*' emission in tons'))   
 
 #Close .png filestream

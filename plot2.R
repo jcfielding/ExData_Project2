@@ -42,8 +42,8 @@ par(las=1)
 
 #Plot emissions
 plot(x = data.baltimore$year, y = data.baltimore$emission, type = "b", 
-     main = expression('Total PM'[2.5]*' from Baltimore per year'), 
-     xlab = "Year", ylab = expression('Total PM'[2.5]*' emission in tons'), 
+     main = expression('Total PM'[2.5]*' emissions from Baltimore City, Maryland'), 
+     xlab = "Year", ylab = expression('Total PM'[2.5]*' emissions in tons'), 
      pch = 19, col = "black", xaxt = "n", yaxt = "n")
 
 #Modify values for x-axis labels 

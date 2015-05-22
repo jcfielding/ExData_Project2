@@ -39,7 +39,7 @@ par(las=1)
 
 #Plot emissions
 plot(x = data.baltimore.road$year, y = data.baltimore.road$emissions, type = "b",
-     main = expression('Total PM'[2.5]*' road emissions for Baltimore City'), 
+     main = expression('Total PM'[2.5]*' emissions from motor vehicles for Baltimore City'), 
      xlab = "Year", ylab = expression('Total PM'[2.5]*' emissions in tons'), 
      pch = 19, col = "black", xaxt = "n", yaxt = "n")
 

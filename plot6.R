@@ -47,8 +47,8 @@ png("plot6.png")
 
 #Plot
 ggplot(data.comp, aes(Year, color = city)) + 
-  xlab("Year") + ylab(expression('Total PM'[2.5]*' emission in tons')) +
-  ggtitle(expression('Total PM'[2.5]*' from Baltimore & LA vehicles, 1999-2008')) +
+  xlab("Year") + ylab(expression('PM'[2.5]*' emission in tons')) +
+  ggtitle(expression('Total PM'[2.5]*' for Baltimore City & Los Angeles County vehicles')) +
   geom_line(aes(y = Emissions_BA, colour = "Baltimore City")) + 
   geom_line(aes(y = Emissions_LA, colour = "Los Angeles County"))
 
